@@ -21,10 +21,10 @@ conda install --yes --file requirements.txt
 ```
 
 to install all the dependencies in `requirements.txt`. Then the package's
-main function (located in `example/__main__.py`) can be run as follows
+main function (located in `opt_align/__main__.py`) can be run as follows
 
 ```
-python -m example
+python -m opt_align score_matrices/ Pospairs.txt Negpairs.txt
 ```
 
 ## testing
