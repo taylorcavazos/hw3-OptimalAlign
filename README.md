@@ -1,7 +1,7 @@
 # example
 
 [![Build
-Status](https://travis-ci.org/tcavazos2/example.svg?branch=master)](https://travis-ci.org/tcavazos2/hw3-OptimalAlign)
+Status](https://travis-ci.org/tcavazos2/hw3-OptimalAlign.svg?branch=master)](https://travis-ci.org/tcavazos2/hw3-OptimalAlign)
 
 Example python project with testing.
 
