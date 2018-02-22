@@ -52,3 +52,9 @@ def read_seqs(filename):
         seqs.append((seq1, seq2))
     return seqs
 
+def read_alignment(filename):
+    """
+    Given a tab separated file of scores and alignments output list of scores
+    """
+    return np.array([int(line.split("\t")[0]) for line in open(filename).read().splitlines()])
+

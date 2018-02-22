@@ -24,7 +24,11 @@ to install all the dependencies in `requirements.txt`. Then the package's
 main function (located in `opt_align/__main__.py`) can be run as follows
 
 ```
-python -m opt_align score_matrices/ Pospairs.txt Negpairs.txt
+# Run initial alignment 
+python -m opt_align --align score_matrices/ Pospairs.txt Negpairs.txt
+
+# Optimize scoring matrix given alignments where initaial alignments are computed using --align
+python -m opt_align --optimize score_matrices/BLOSUM50 Pospairs.txt Negpairs.txt alignments_pos.txt alignments_neg.txt 
 ```
 
 ## testing
